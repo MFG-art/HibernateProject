@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/*
+This Controller class was based off of the one listed in the Spring.io tutorials page
+ */
+
 @RestController
 public class BookController {
     private final BookRepository bookRepository;
